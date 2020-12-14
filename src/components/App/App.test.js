@@ -1,10 +1,10 @@
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import App from './App';
 
 describe('App', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<App />);
+    component = mount(<App />);
   });
 
   it('renders App', () => {

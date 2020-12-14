@@ -1,4 +1,4 @@
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import PageHeader from './PageHeader';
 
