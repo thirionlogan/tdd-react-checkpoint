@@ -10,4 +10,7 @@ describe('App', () => {
   it('renders App', () => {
     expect(component.exists('.App')).toBe(true);
   });
+  it('render Header', () => {
+    expect(component.exists('PageHeader')).toBe(true);
+  });
 });
